@@ -74,5 +74,13 @@ int main(){
     x2 -= y2;
     printf("%d\n", x2);
 
+//size of my data.
+
+    printf("Size of Section: %zu bytes\n", sizeof(section));
+    printf("Size of Age: %zu bytes\n", sizeof(age));
+    printf("Size of Salary: %zu bytes\n", sizeof(salary));
+    printf("Size of Bonus: %zu bytes\n", sizeof(bonus));
+    printf("Size of Total: %zu bytes\n", sizeof(total));
+
     return 0;
 }

@@ -67,5 +67,20 @@ int main() {
     a1 /= a3;   // a1 = a1 / a3
     printf("A1 after a1 /= a3     : %.2lf\n", a1);
 
+
+     int MyNumber;
+
+    printf("Enter Your Number: ");
+    scanf("%i", &MyNumber);
+
+    if (MyNumber >= 80) {
+        printf("It is your real number: %i\n", MyNumber);
+    }
+    else {
+        printf("It is not your number. Your number must start from 80.\n");
+        printf("You entered number: %i\n", MyNumber);
+    }
+    
+
     return 0;
 }

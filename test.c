@@ -80,7 +80,22 @@ int main() {
         printf("It is not your number. Your number must start from 80.\n");
         printf("You entered number: %i\n", MyNumber);
     }
-    
+     double number1, number2;
+
+    printf("enter two individual number: ");
+    scanf("%lf %lf", &number1, &number2);
+
+    if (number1 == number2) {
+        printf("Right Number\n");
+        printf("Your Number: %lf = %lf\n", number1, number2);
+    }
+    else if (number1 < number2) {
+        printf("The Number : %lf < %lf\n", number1, number2);
+    }
+    else {
+        printf("number %lf > %lf\n", number1, number2);
+    }
+
 
     return 0;
 }

@@ -3,7 +3,7 @@
 int main(){
 
     // ===== Example 1: Input Output =====
-    char section;
+   char section;
     int age;
     float salary;
     double bonus;
@@ -21,8 +21,8 @@ int main(){
     printf("Enter Bonus: ");
     scanf("%lf", &bonus);
 
-    printf("Enter Total: ");
-    scanf("%Lf", &total);
+    // এখানে total হিসাব করবো
+    total = salary + bonus;
 
     printf("\n--- Employee Information ---\n");
     printf("Name: Zakaria Islam Jibon\n");
@@ -31,6 +31,7 @@ int main(){
     printf("Salary: %.2f\n", salary);
     printf("Bonus: %.2lf\n", bonus);
     printf("Total: %.2Lf\n\n", total);
+
 
 
     // ===== Example 2: Arithmetic Operators =====

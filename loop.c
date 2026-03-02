@@ -16,5 +16,23 @@ int main (){
 
     printf(" The Number : %i", sum);
 
+     int i = 1 ;
+    while (i <= 10){
+        printf ("Loop:%i\n", i); 
+    }
+
+    int count = 1 , MyNum, sum = 0 ;
+    printf ("Enter A Number:");
+    scanf ("%i", &MyNum);
+
+    while (count <= MyNum){
+         sum+=count;
+       
+        ++count;
+       
+
+    }
+     printf("The Number: %i\n", sum);
+
     return 0;
 }

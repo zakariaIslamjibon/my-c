@@ -38,4 +38,5 @@ int main() {
     printf("The Sum using while loop: %i\n", sum);
 
     return 0;
+
 }
